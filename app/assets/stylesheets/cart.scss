@@ -10,3 +10,16 @@
     color: white;
   }
 }
+
+.alert.alert-info {
+  font-weight: 400;
+  border-radius: 5px;
+  border-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn.btn-primary {
+  margin-left: auto;
+}
