@@ -1,0 +1,33 @@
+header .login {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: aliceblue;
+  
+    a {
+      background-color: #218838 ;
+      color: white; 
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+
+      a + a {
+        border-left: none; 
+        margin-left: 10px; 
+      }
+  
+      &:hover {
+        background-color: #28a745; 
+      }
+    }
+  
+    a:first-of-type {
+      background-color: #a3023a; 
+      &:hover {
+        background-color: #ff0059;; 
+      }
+    }
+  }
+  
