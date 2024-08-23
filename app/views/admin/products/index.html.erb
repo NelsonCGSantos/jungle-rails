@@ -5,8 +5,9 @@
   </header>
 
   <div class="well">
-    <%= link_to '+ New Product', [:new, :admin, :product], class: 'btn btn-info' %>
-  </div>
+  <%= link_to '+ New Product', [:new, :admin, :product], class: 'btn btn-info' %>
+  <%= link_to '+ Category', admin_categories_path, class: 'btn btn-secondary' %>
+</div>
 
   <div class="panel panel-default products">
 
