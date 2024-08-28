@@ -23,6 +23,8 @@ gem 'webpacker', '~> 5.0'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'cypress-rails'
+  gem 'database_cleaner-active_record'
   gem 'dotenv-rails'
   gem 'net-smtp', require: false
   gem 'rspec-rails', '~> 5.1'
